@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Zest</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/icons8-lips-60.png">
+	<!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+</head>
+<body>
+	<!-- header section -->
+	<header>
+		<a class="navbar-brand text-success text-size-lg" href="#">Simply the <span class="blueLine">Zest</span></a>
+
+		<nav class="navbar">
+			<a href="#home" class="rounded-3">home</a>
+			<a href="#about" class="rounded-3">about</a>
+			<a href="#menu" class="rounded-3">menu</a>
+			<a href="#team" class="rounded-3">team</a>
+			<a href="#reservation" class="rounded-3">reservation</a>
+			<a href="#blog" class="rounded-3">blog</a>
+		</nav>
+
+		<div class="icons">
+			<i class="fas fa-bars rounded-circle" id="menu"></i>
+			<i class="fas fa-search rounded-circle"></i>
+			<i class="fas fa-heart rounded-circle"></i>
+			<i class="fas fa-shopping-cart rounded-circle"></i>
+		</div>
+	</header>
+
+	<!-- slider section -->
+	<div class="home" id="home">
+		<div class="swiper home-slider">
+			<div class="swiper-wrapper wrapper">
+				<div class="swiper-slide slide slide1">
+					<div class="content">
+						<img src="Images/plate.png" class="plate" alt="plate icon">
+
+						<h3>delicious</h3>
+						<h1>gift voucher</h1>
+						<p>
+							give away to your friends
+						</p>
+						<a href="#" class="btn">order now</a>
+					</div>
+				</div>
+
+				<div class="swiper-slide slide slide2">
+					<div class="content">
+						<img src="plate.png" class="plate" alt="plate icon">
+
+						<h3>beautiful</h3>
+						<h1>colorful</h1>
+						<p>
+							dishes that are photo ready
+						</p>
+						<a href="#" class="btn">order now</a>
+					</div>
+				</div>
+
+				<div class="swiper-slide slide slide3">
+					<div class="content">
+						<img src="plate.png" class="plate" alt="plate icon">
+
+
+						<h3>we are open</h3>
+						<h1>indoor and outdoor dining</h1>
+						<p>
+							you will love it
+						</p>
+						<a href="#" class="btn">order now</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+
+	<!-- welcome section  -->
+	<section class="welcome" id="about">
+		<h1 class="heading">Welcome to Simply the <span class="blueLine">Zest</span></h1>
+		<center><h3 class="sub-heading"> ~ Luxury & Quality ~ </h3></center>
+
+		<div class="box-container">
+			<div class="box">
+				<div class="image">
+					<img src="Images/post-thumb-1.jpg">
+				</div>
+
+				<div class="content">
+					<h3>PROFESSIONAL LEVEL</h3>
+					<figure>
+						<blockquote class="blockquote">
+						  <p>The business of feeding people is the most amazing business in the world.</p>
+						</blockquote>
+						<figcaption class="blockquote-footer">
+							José Andrés <cite title="Source Title">Chef and Founder of World Central Kitchen.</cite>
+						</figcaption>
+					  </figure>
+					<a href="#" class="btn">Read More</a>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="image">
+					<img src="Images/post-thumb-2.jpg">
+				</div>
+
+				<div class="content">
+					<h3>FRESH FOOD GUARANTEED</h3>
+					<figure>
+						<blockquote class="blockquote">
+						  <p>A good restaurant is like a vacation; it transports you, and it becomes a lot more than just about the food. </p>
+						</blockquote>
+						<figcaption class="blockquote-footer">
+							Philip Rosenthal <cite title="Source Title">Television Writer and Producer.</cite>
+						</figcaption>
+					  </figure>
+					<a href="#" class="btn">Read More</a>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="image">
+					<img src="Images/post-thumb-3.jpg">
+				</div>
+
+				<div class="content">
+					<h3>THE MENU IS PLENTIFUL</h3>
+					<figure>
+						<blockquote class="blockquote">
+						  <p>If anything is good for pounding humility into you permanently, it’s the restaurant business. </p>
+						</blockquote>
+						<figcaption class="blockquote-footer">
+							Anthony Bourdain
+						</figcaption>
+					  </figure>
+					<a href="#" class="btn">Read More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- welcome section  -->
+
+	<!-- our menu section  -->
+	<section class="our-menu" id="menu">
+		<h1 class="heading">our food menu</h1>
+		<center><h3 class="sub-heading"> ~ see what we offer ~ </h3></center>
+
+		<div class="menu-container">
+
+			<div class="item">
+				<div class="item-name">
+					<h2>Main Course</h2>
+					<img src="drinks.png">
+				</div>
+
+				<div class="item-body">
+					<div class="item-menu">
+						<h3>Duck Breasts with Apricot Chutney</h3>
+						<span class="dots"></span>
+						<h3>$40</h3>
+
+					</div>
+
+					<div class="item-menu">
+						<h3>Super-Delicious Zuppa Toscana</h3>
+						<span class="dots"></span>
+						<h3>$26</h3>
+
+						<ul>
+							<li><a href="#">Mushrooms</a></li>
+							<li><a href="#">Italian</a></li>
+							<li><a href="#">Sausage</a></li>
+							<li><a href="#">Spinach</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="item-name">
+					<h2>Soups & salads</h2>
+					<img src="drinks.png">
+				</div>
+
+				<div class="item-body">
+					<div class="item-menu">
+						<h3>Super-Delicious Tortilla Soup</h3>
+						<span class="dots"></span>
+						<h3>$40</h3>
+
+						<ul>
+							<li><a href="#">Chicken</a></li>
+							<li><a href="#">Italian</a></li>
+							<li><a href="#">Sausage</a></li>
+							<li><a href="#">Spinach</a></li>
+						</ul>
+					</div>
+
+					<div class="item-menu">
+						<h3>mixed salad</h3>
+						<span class="dots"></span>
+						<h3>$26</h3>
+
+						<ul>
+							<li><a href="#">Mushrooms</a></li>
+							<li><a href="#">Italian</a></li>
+							<li><a href="#">Sausage</a></li>
+							<li><a href="#">Spinach</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+
+			<div class="item">
+				<div class="item-name">
+					<h2>Drinks</h2>
+					<img src="drinks.png">
+				</div>
+
+				<div class="item-body">
+					<div class="item-menu">
+						<h3>Cocktails</h3>
+						<span class="dots"></span>
+						<h3>$8</h3>
+
+					</div>
+
+					<div class="item-menu">
+						<h3>Beer</h3>
+						<span class="dots"></span>
+						<h3>$6</h3>
+
+					</div>
+
+				</div>
+			</div>
+
+
+			<div class="item">
+				<div class="item-name">
+					<h2>Desserts</h2>
+					<img src="drinks.png">
+				</div>
+
+				<div class="item-body">
+					<div class="item-menu">
+						<h3>cheese cake</h3>
+						<span class="dots"></span>
+						<h3>$8</h3>
+
+					</div>
+
+					<div class="item-menu">
+						<h3>Poires Au Vin Rouge</h3>
+						<span class="dots"></span>
+						<h3>$26</h3>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- our menu section ends -->
+
+	<!-- our team section start -->
+	<section class="our-team" id="team">
+		<h1 class="heading">our talented chefs</h1>
+		<center>
+			<h3 class="sub-heading"> ~ Experience $ Enthusiasm ~ </h3>
+		</center>
+
+		<div class="our-chef">
+			<div class="item">
+				<div class="image">
+					<img src="Images/chef1.jpg">
+				</div>
+
+				<div class="chef-info">
+					<div>
+						<h3>Jerry robertson</h3>
+						<span>master chef</span>
+
+						<ul>
+							<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="image">
+					<img src="Images/chef2.jpg">
+				</div>
+
+				<div class="chef-info">
+					<div>
+						<h3>Corol rowson</h3>
+						<span>master chef</span>
+
+						<ul>
+							<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="image">
+					<img src="Images/chef3.jpg">
+				</div>
+
+				<div class="chef-info">
+					<div>
+						<h3>taylor mccoy</h3>
+						<span>master chef</span>
+
+						<ul>
+							<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+	<!-- our team section ends -->
+
+
+	<!-- reservation section start -->
+		<div class="reservation" id="reservation">
+			<div class="image">
+				
+			</div>
+
+			<div class="form">
+				<h1 class="heading">book a table</h1>
+				<center><h3 class="sub-heading">~ check out our place ~ </h3></center>
+
+				<form>
+					<div class="form-holder">
+						<div>
+							<select>
+								<option>1 people</option>
+								<option>2 people</option>
+								<option>3 people</option>
+								<option>4 people</option>
+							</select>
+
+							<input type="text" name="" placeholder="Time">
+							<input type="text" name="" placeholder="Phone">
+						</div>
+
+						<div>
+							<input type="text" name="" placeholder="Date">
+							<input type="text" name="" placeholder="Name">
+							<input type="email" name="" placeholder="email">
+						</div>
+					</div>
+					<center><a href="#" class="btn">Book now</a></center>
+				</form>
+			</div>
+		</div>
+	<!-- reservation section ends -->
+
+	<!-- news section start -->
+	<section class="blog welcome" id="blog">
+		<h1 class="heading">latest news</h1>
+		<center><h3 class="sub-heading"> ~ Greate articles ~ </h3></center>
+
+		<div class="box-container">
+			<div class="box">
+				<div class="image">
+					<img src="post-thumb-4.jpg">
+				</div>
+
+				<div class="content">
+					<h3>PROFESSIONAL LEVEL</h3>
+					<p>A world of dew, And within every dewdrop.</p>
+					<a href="#">READ MORE</a>
+					<img src="post-body-bg-1.png">
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="image">
+					<img src="post-thumb-5.jpg">
+				</div>
+
+				<div class="content">
+					<h3>FRESH FOOD GUARANTEED</h3>
+					<p>love between us is speech and breath.</p>
+					<a href="#">READ MORE</a>
+					<img src="post-body-bg-2.png">
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="image">
+					<img src="post-thumb-6.jpg">
+				</div>
+
+				<div class="content">
+					<h3>THE MENU IS PLENTIFUL</h3>
+					<p> winds howl in rage With no leaves to blow.</p>
+					<a href="#">READ MORE</a>
+					<img src="post-body-bg-3.png">
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- news section ends -->
+	
+
+	<!-- footer section start -->
+	<section class="footer">
+		<img src="Images/plate.png" class="plate" alt="plate icon">
+
+		<div class="container">
+			<div>
+				<h3>ABOUT US</h3>
+				<p>Nicholas Catalan</p>
+			</div>
+
+			<div>
+				<h3>GET NEWS & OFFERS</h3>
+				<input type="email" name="" placeholder="enter your email">
+				<ul>
+					<li><a href="https://github.com/Catalan-Nick"><i class="fa-brands fa-github"></i></a></li>
+					<li><a href="mailto:ncatalan0524@gmail.com"><i class="fa-brands fa-envelope-open"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/nicholas-catalan/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+				</ul>
+			</div>
+
+			<div>
+				<h3>CONTACT US</h3>
+				<span>Nick Catalan</span>
+				<a href="mailto:ncatalan0524@gmail.com">NCatalan0524@gmail.com</a>
+			</div>
+		</div>
+
+		<p>&copy;2022</p>
+	</section>
+	<!-- footer section end -->
+
+	<!-- jump to top -->
+
+	<a href="#"><button class="topbtn"><i class="fa-solid fa-angle-up"></i></button></a>
+
+
+	<!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".home-slider", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 7500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        loop:true,
+      });
+    </script>
+	<script type="text/javascript">
+		let menu = document.querySelector('#menu');
+		let navbar = document.querySelector('.navbar');
+
+		menu.onclick = () =>{
+			menu.classList.toggle('fa-times');
+			navbar.classList.toggle('active');
+		}
+	</script>
+</body>
+</html>

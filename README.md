@@ -1,4 +1,4 @@
-# Restuarant-Website
+# Restuarant - Simply the Zest
 
 ## Dream Homes
 A real estate website to show I can build any kind of site. 
